@@ -1,5 +1,8 @@
 # .gitignore for master-piece
 master-piece.key
 
-# IDE xml files
-.idea/*
+# IDE files
+.idea/**/learningGo.iml
+.idea/**/misc.xml
+.idea/**/modules.xml
+.idea/**/vcs.xml
