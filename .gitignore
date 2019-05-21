@@ -2,7 +2,5 @@
 master-piece.key
 
 #IDE
-*.idea/
+.idea/
 .idea/*
-*.xml
-.idea/*.xml
