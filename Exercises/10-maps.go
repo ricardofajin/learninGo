@@ -38,8 +38,17 @@ func main() {
 	fmt.Println("prs: ", prs)
 
 	//You can also declare and initialize a new map in the same line with this syntax.
-	n := map[string]int{"foo": 1, "bar": 2}
+	n := map[string]int{"afoo": 1, "bar": 2}
+
+	//the maps initialize the map with alphabetical order. (new feature?)
 	fmt.Println("new map, initialized at the same line -> ", n) //Note that maps appear in the form map[k:v k:v] when printed with fmt.Println.
+
+	fmt.Printf("+%v\n", n)
+
+	for k, v := range n {
+		fmt.Println("key: ", k)
+		fmt.Println("value: ", v)
+	}
 
 	//? - In my case, the "bar" was started at the front of the "foo" -? why o.O
 }
